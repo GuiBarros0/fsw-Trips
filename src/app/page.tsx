@@ -1,10 +1,12 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+"use client"
 
-const inter = Inter({ subsets: ['latin'] })
+import TripSearch from "./components/TripSearch"
 
 export default function Home() {
+
   return (
-    <h1>Home Page</h1>
+    <div>
+      <TripSearch/>
+    </div>
   )
 }

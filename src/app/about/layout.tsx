@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import page from "../page";
 
 const Layout = ({children} : {children: ReactNode}) => {
     return (
